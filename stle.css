@@ -1,0 +1,63 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #2C2F33;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading */
+h1 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+/* Input and Button Styling */
+input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background: #7289DA;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5b6eae;
+}
+
+/* Results Section */
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background: #23272A;
+    border-radius: 10px;
+    display: inline-block;
+    width: 50%;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #result {
+        width: 80%;
+    }
+}
